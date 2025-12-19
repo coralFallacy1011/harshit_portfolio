@@ -1,8 +1,17 @@
-# Portfolio — Engineer of the North
+# Portfolio
 
-This is a small TypeScript + React + Vite portfolio scaffold with a dark, Game-of-Thrones-inspired aesthetic. It portrays the author as a northern-style engineer (in spirit) and provides pages for Home, About, Projects, Contact, and Links.
+This repository contains the source code for my personal portfolio website.
 
-Getting started (Windows `cmd.exe`):
+The website highlights my projects, technical interests, and ongoing learning
+across full-stack development, machine learning, computer vision, and IoT.
+
+## Built With
+- React
+- TypeScript
+- Vite
+- Custom CSS (dark theme with subtle neon accents)
+
+## Running Locally
 
 1. Install dependencies:
 
@@ -17,7 +26,3 @@ npm run dev
 ```
 
 3. Open the address shown by Vite (usually `http://localhost:5173`).
-
-Notes:
-- This project is a starting scaffold. Replace placeholder text, emails, and project links with your real content.
-- The design is "inspired" by medieval / northerly aesthetics without using copyrighted assets.
