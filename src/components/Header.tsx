@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="nav-container">
         <div className="logo">
-          Harshit<span className="neon-dot">.</span>
+          HarshitSaroha<span className="neon-dot">.</span>
         </div>
 
         <nav className="nav-links">

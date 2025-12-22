@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="about">
       <h1 className="page-title">
-        About Me <span className="neon-dot">.</span>
+        About Me<span className="neon-dot">.</span>
       </h1>
 
       <p className="about-lead">

@@ -20,7 +20,7 @@ export default function ProjectCard({ title, desc, url, tags }: ProjectCardProps
       )}
 
       <a href={url} className="project-link">
-        View Details →
+        View Details -&gt;
       </a>
     </div>
   )

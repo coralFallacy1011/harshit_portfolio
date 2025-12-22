@@ -7,6 +7,10 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Links from './pages/Links'
+import SmartBeamX from './pages/projects/SmartBeamX'
+import ViolenceDetection from './pages/projects/ViolenceDetection'
+import LeetCodeHelper from './pages/projects/LeetCodeHelper'
+import './styles/global.css'
 
 export default function App() {
   return (
@@ -19,6 +23,9 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/links" element={<Links />} />
+          <Route path="/projects/smartbeamx" element={<SmartBeamX />} />
+          <Route path="/projects/violence-detection" element={<ViolenceDetection />} />
+          <Route path="/projects/leetcode-helper" element={<LeetCodeHelper />} />
         </Routes>
       </main>
       <Footer />

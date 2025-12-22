@@ -11,9 +11,7 @@ export default function Home() {
           <span className="neon-dot">.</span>
         </h1>
 
-        <h2 className="subtitle">
-          Full-Stack × AI × IoT Engineer
-        </h2>
+        <h2 className="subtitle">Full-Stack × AI × IoT Engineer</h2>
 
         <p className="tagline">
           Jack of all trades — master of none (yet).

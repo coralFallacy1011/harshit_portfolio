@@ -2,19 +2,18 @@ export default function Contact() {
   return (
     <section className="contact">
       <h1 className="page-title">
-        Contact <span className="neon-dot">.</span>
+        Contact<span className="neon-dot">.</span>
       </h1>
 
       <p className="contact-lead">
-        If you’d like to discuss opportunities, projects, or just talk tech,
-        feel free to reach out.
+        If you’d like to discuss opportunities, projects, or just talk tech, feel free to reach out.
       </p>
 
       <div className="contact-box">
         <div className="contact-item">
           <span>Email</span>
-          <a href="mailto:harshitsaroha@email.com">
-            harshitsaroha@email.com
+          <a href="mailto:harshitsaroha22@gmail.com">
+            harshitsaroha22@gmail.com
           </a>
         </div>
 
@@ -32,11 +31,11 @@ export default function Contact() {
         <div className="contact-item">
           <span>GitHub</span>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/coralFallacy1011"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github.com/yourusername
+            github.com/coralFallacy1011
           </a>
         </div>
       </div>

@@ -438,3 +438,53 @@ body {
   box-shadow: 0 0 18px rgba(0, 234, 255, 0.18);
   transform: translateY(-4px);
 }
+
+/* ===== Individual Project Pages ===== */
+
+.project-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 4rem 1.5rem;
+}
+
+.project-subtitle {
+  font-size: 1.1rem;
+  color: #9ca3af;
+  margin-bottom: 3rem;
+}
+
+.project-section {
+  margin-bottom: 2.5rem;
+}
+
+.project-section h2 {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 0.6rem;
+}
+
+.project-section p,
+.project-section li {
+  color: #d1d5db;
+  line-height: 1.7;
+}
+
+.project-section ul {
+  padding-left: 1.2rem;
+}
+
+.project-links {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project-links a {
+  color: #00eaff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
