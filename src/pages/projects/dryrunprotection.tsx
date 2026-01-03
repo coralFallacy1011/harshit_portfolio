@@ -1,3 +1,5 @@
+import ProjectGallery from '../../components/ProjectGallery'
+
 export default function IoTGeyserProtection() {
   return (
     <section className="project-page">
@@ -26,6 +28,12 @@ export default function IoTGeyserProtection() {
           feedback.
         </p>
       </div>
+
+      <ProjectGallery
+        images={[
+          '/projects/geyser/img1.jpeg',
+        ]}
+      />
 
       {/* SYSTEM ARCHITECTURE */}
       <div className="project-section">

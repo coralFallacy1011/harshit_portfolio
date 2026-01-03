@@ -1,3 +1,5 @@
+import ProjectGallery from '../../components/ProjectGallery'
+
 export default function SmartBeamX() {
   return (
     <section className="project-page">
@@ -26,6 +28,17 @@ export default function SmartBeamX() {
           real-world driving scenarios.
         </p>
       </div>
+
+      <ProjectGallery
+        images={[
+          '/projects/smartbeamx/img1.jpeg',
+          '/projects/smartbeamx/img2.jpeg',
+          '/projects/smartbeamx/img3.jpeg',
+          '/projects/smartbeamx/img4.jpeg',
+          '/projects/smartbeamx/img5.jpeg',
+          '/projects/smartbeamx/img6.jpeg',
+        ]}
+      />
 
       {/* SYSTEM ARCHITECTURE */}
       <div className="project-section">

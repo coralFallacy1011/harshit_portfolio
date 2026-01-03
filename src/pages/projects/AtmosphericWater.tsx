@@ -1,3 +1,5 @@
+import ProjectGallery from '../../components/ProjectGallery'
+
 export default function AtmosphericWaterGenerator() {
   return (
     <section className="project-page">
@@ -25,6 +27,15 @@ export default function AtmosphericWaterGenerator() {
           environmentally friendly manner.
         </p>
       </div>
+
+      <ProjectGallery
+        images={[
+          '/projects/awg/img1.jpeg',
+          '/projects/awg/img2.jpeg',
+          '/projects/awg/img3.jpeg',
+          '/projects/awg/img4.jpeg',
+        ]}
+      />
 
       {/* PHYSICS & PRINCIPLES */}
       <div className="project-section">

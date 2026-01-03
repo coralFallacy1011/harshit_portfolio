@@ -1,3 +1,5 @@
+import ProjectGallery from '../../components/ProjectGallery'
+
 export default function JobMilJayeSimSim() {
   return (
     <section className="project-page">
@@ -26,6 +28,30 @@ export default function JobMilJayeSimSim() {
           techniques.
         </p>
       </div>
+
+            {/* ACHIEVEMENT */}
+      <div className="project-section">
+        <h2>Recognition & Achievement</h2>
+        <p>
+          This project received a <strong>Special Mention Award</strong> at a
+          national-level hackathon, selected from over{' '}
+          <strong>500 teams in the first round</strong> and approximately{' '}
+          <strong>50 teams in the final round</strong>.
+        </p>
+        <p>
+          The recognition was awarded for the project’s practical approach to
+          job discovery, effective use of machine learning, and focus on
+          real-world usability.
+        </p>
+      </div>
+
+      <ProjectGallery
+        images={[
+          '/projects/jmss/img1.jpeg',
+          '/projects/jmss/img2.jpeg',
+          '/projects/jmss/img3.jpeg',
+        ]}
+      />
 
       {/* TECH STACK */}
       <div className="project-section">

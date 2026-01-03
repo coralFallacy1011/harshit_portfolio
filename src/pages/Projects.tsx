@@ -8,65 +8,73 @@ export default function Projects() {
       </h1>
 
       <p className="projects-lead">
-        A collection of projects where I explored real-world problems using
-        machine learning, computer vision, IoT, and full-stack development.
+        A collection of projects spanning software systems, machine learning,
+        computer vision, and hardware-driven engineering solutions.
       </p>
+
+      {/* ================= SOFTWARE PROJECTS ================= */}
+      <h2 className="projects-section-title">Software Projects</h2>
 
       <div className="projects-grid">
         <ProjectCard
-          title="SmartBeamX"
-          desc="Designed a real-time vehicle detection system using YOLO and OpenCV to dynamically control an LED matrix. Integrated Raspberry Pi, Flask APIs, and grid-based coordinate mapping to reduce glare for oncoming drivers."
-          url="/projects/smartbeamx"
-          tags={['Computer Vision', 'YOLO', 'Raspberry Pi', 'OpenCV', 'Flask']}
-        />
-
-        <ProjectCard
           title="SafeguardAI"
-          desc="Built a deep learning–based system that analyzes live camera feeds to detect violent activity. Implemented a full-stack dashboard with React and Node, including real-time alerts and an SOS trigger."
+          desc="Deep learning–based system for real-time violence detection using CNN-LSTM architecture with a live monitoring dashboard."
           url="/projects/violence-detection"
-          tags={['Deep Learning', 'Computer Vision', 'React', 'Node.js']}
-        />
-
-        <ProjectCard
-          title="Atmospheric Water Generator"
-          desc="Engineered a system using thermoelectric (Peltier) devices to generate water from atmospheric humidity by operating below the dew point. Applied core thermodynamics and heat transfer principles."
-          url="/projects/atmospheric-water-generator"
-          tags={['Thermodynamics', 'Embedded Systems', 'Sustainability']}
+          tags={['Deep Learning', 'Computer Vision', 'React', 'Flask']}
         />
 
         <ProjectCard
           title="LeetCode Helper Chrome Extension"
-          desc="Created a browser extension that provides hints, solutions, and performance tips for LeetCode problems. Utilized JavaScript, React, and Chrome Extension APIs to enhance the problem-solving experience."
+          desc="Browser extension that provides structured hints and algorithmic guidance for LeetCode problems."
           url="/projects/leetcode-helper"
           tags={['JavaScript', 'React', 'Chrome Extension']}
         />
 
         <ProjectCard
           title="Job Mil Jaye SimSim"
-          desc="Developed a full-stack job portal connecting job seekers with employers. Implemented features like resume uploads, job recommendations, and application tracking using MERN stack technologies."
+          desc="NLP and ML-powered job recommendation platform that matches user profiles with relevant roles and skill suggestions."
           url="/projects/job-mil-jaye-simsim"
-          tags={['MERN Stack', 'Full-Stack Development', 'Job Portal']}
-        />
-
-        <ProjectCard
-          title="IoT Geyser Dry-Run Protection"
-          desc="Designed an IoT-based system to prevent dry-run conditions in geysers using water level sensors and microcontrollers. Developed a web dashboard for real-time monitoring and alerts."
-          url="/projects/iot-geyser-protection"
-          tags={['IoT', 'Embedded Systems', 'Web Dashboard']}
+          tags={['TypeScript', 'NLP', 'Machine Learning']}
         />
 
         <ProjectCard
           title="Autism Risk Screening using ML"
-          desc="Built a machine learning system to assess autism risk from questionnaire responses. Trained ensemble models for improved accuracy and interpretability."
+          desc="Machine learning–based screening tool using ensemble models to assess autism risk from questionnaire responses."
           url="/projects/autism-risk-screening"
           tags={['Machine Learning', 'Ensemble Models', 'Healthcare']}
+        />
+      </div>
+
+      {/* ================= HARDWARE / SYSTEMS PROJECTS ================= */}
+      <h2 className="projects-section-title">Hardware & Systems Projects</h2>
+
+      <div className="projects-grid">
+        <ProjectCard
+          title="SmartBeamX"
+          desc="Adaptive matrix LED headlight system using real-time vehicle detection and embedded control to reduce glare."
+          url="/projects/smartbeamx"
+          tags={['Computer Vision', 'Embedded Systems', 'Raspberry Pi', 'STM32']}
+        />
+
+        <ProjectCard
+          title="Atmospheric Water Generator"
+          desc="Thermoelectric-based system using Peltier devices to extract water from atmospheric humidity."
+          url="/projects/atmospheric-water-generator"
+          tags={['Thermodynamics', 'Embedded Systems', 'Sustainability']}
+        />
+
+        <ProjectCard
+          title="IoT Geyser Dry-Run Protection"
+          desc="Safety-critical embedded and IoT system to prevent dry-run and overheating in electric geysers."
+          url="/projects/iot-geyser-protection"
+          tags={['IoT', 'Embedded Systems', 'STM32', 'ESP32']}
         />
 
         <ProjectCard
           title="V2V Charging & Communication"
-          desc="Researched vehicle-to-vehicle wireless charging and communication protocols. Proposed a framework for dynamic power transfer and data exchange between electric vehicles."
+          desc="Prototype framework enabling vehicle-to-vehicle energy sharing using real-time communication and negotiation protocols."
           url="/projects/v2v-charging-communication"
-          tags={['Wireless Charging', 'V2V Communication', 'Electric Vehicles']}
+          tags={['V2V Communication', 'Electric Vehicles', 'Embedded Systems']}
         />
       </div>
     </section>

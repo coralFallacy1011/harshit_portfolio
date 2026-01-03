@@ -1,14 +1,26 @@
 export default function About() {
   return (
     <section className="about">
-      <h1 className="page-title">
-        About Me<span className="neon-dot">.</span>
-      </h1>
+      {/* HEADER WITH IMAGE */}
+      <div className="about-header">
+        <img
+          src="/profile.jpg"
+          alt="Harshit Saroha"
+          className="about-image"
+        />
 
-      <p className="about-lead">
-        I’m an engineering student who likes to build things that actually work —
-        not just slides, not just theory, but systems you can run, test, and break.
-      </p>
+        <div>
+          <h1 className="page-title">
+            About Me<span className="neon-dot">.</span>
+          </h1>
+
+          <p className="about-lead">
+            I’m an engineering student who likes to build things that actually
+            work — not just slides, not just theory, but systems you can run,
+            test, and break.
+          </p>
+        </div>
+      </div>
 
       <div className="about-block">
         <h2>How I Think</h2>
@@ -39,9 +51,9 @@ export default function About() {
         <h2>Beyond Code</h2>
         <p>
           Apart from building projects, I actively participate in hackathons,
-          college tech events, and coding communities. I’ve helped organize events,
-          mentored juniors, and worked in teams where communication mattered as
-          much as technical skill.
+          college tech events, and coding communities. I’ve helped organize
+          events, mentored juniors, and worked in teams where communication
+          mattered as much as technical skill.
         </p>
         <p>
           I believe good engineers are not just good coders — they are good

@@ -1,3 +1,5 @@
+import ProjectGallery from '../../components/ProjectGallery'
+
 export default function ViolenceDetection() {
   return (
     <section className="project-page">
@@ -24,6 +26,11 @@ export default function ViolenceDetection() {
           model inference to real-time visualization through a web dashboard.
         </p>
       </div>
+      <ProjectGallery
+        images={[
+          '/projects/violencedetection/img1.jpeg',
+        ]}
+      />
 
       {/* TECH STACK */}
       <div className="project-section">
