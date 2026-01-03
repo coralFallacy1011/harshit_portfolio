@@ -10,6 +10,11 @@ import Links from './pages/Links'
 import SmartBeamX from './pages/projects/SmartBeamX'
 import ViolenceDetection from './pages/projects/ViolenceDetection'
 import LeetCodeHelper from './pages/projects/LeetCodeHelper'
+import AtmosphericWater from './pages/projects/AtmosphericWater'
+import JobMilJayeSimSim from './pages/projects/jmss'
+import IoTGeyserProtection from './pages/projects/dryrunprotection'
+import AutismRiskScreening from './pages/projects/AutismRiskScreening'
+import V2VChargingCommunication from './pages/projects/V2VChargingCommunication'
 import './styles/global.css'
 
 export default function App() {
@@ -26,6 +31,11 @@ export default function App() {
           <Route path="/projects/smartbeamx" element={<SmartBeamX />} />
           <Route path="/projects/violence-detection" element={<ViolenceDetection />} />
           <Route path="/projects/leetcode-helper" element={<LeetCodeHelper />} />
+          <Route path="/projects/atmospheric-water-generator" element={<AtmosphericWater />} />
+          <Route path="/projects/job-mil-jaye-simsim" element={<JobMilJayeSimSim />} />
+          <Route path="/projects/iot-geyser-protection" element={<IoTGeyserProtection />} />
+          <Route path="/projects/autism-risk-screening" element={<AutismRiskScreening />} />
+          <Route path="/projects/v2v-charging-communication" element={<V2VChargingCommunication />} />
         </Routes>
       </main>
       <Footer />

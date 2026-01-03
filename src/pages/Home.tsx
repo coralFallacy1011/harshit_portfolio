@@ -46,21 +46,21 @@ export default function Home() {
 
         <div className="grid">
           <ProjectCard
-            title="Adaptive Matrix LED Headlights"
+            title="SmartBeamX"
             desc="Real-time vehicle detection using YOLO with dynamic LED control on Raspberry Pi."
-            url="#"
+            url="/projects/smartbeamx"
           />
 
           <ProjectCard
-            title="Real-Time Violence Detection System"
+            title="SafeguardAI"
             desc="Live camera feed analysis using a deep learning model with a full-stack dashboard."
-            url="#"
+            url="/projects/violence-detection"
           />
 
           <ProjectCard
-            title="SmartStayAI"
-            desc="ML-powered pricing and decision-support system built with a full-stack architecture."
-            url="#"
+            title="LeetCode Helper"
+            desc="Browser extension offering hints and solutions for LeetCode problems."
+            url="/projects/leetcode-helper"
           />
         </div>
       </div>

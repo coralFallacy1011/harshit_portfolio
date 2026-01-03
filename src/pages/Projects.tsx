@@ -14,37 +14,23 @@ export default function Projects() {
 
       <div className="projects-grid">
         <ProjectCard
-          title="Adaptive Matrix LED Headlights for Cars"
+          title="SmartBeamX"
           desc="Designed a real-time vehicle detection system using YOLO and OpenCV to dynamically control an LED matrix. Integrated Raspberry Pi, Flask APIs, and grid-based coordinate mapping to reduce glare for oncoming drivers."
           url="/projects/smartbeamx"
           tags={['Computer Vision', 'YOLO', 'Raspberry Pi', 'OpenCV', 'Flask']}
         />
 
         <ProjectCard
-          title="Real-Time Violence Detection System"
+          title="SafeguardAI"
           desc="Built a deep learning–based system that analyzes live camera feeds to detect violent activity. Implemented a full-stack dashboard with React and Node, including real-time alerts and an SOS trigger."
           url="/projects/violence-detection"
           tags={['Deep Learning', 'Computer Vision', 'React', 'Node.js']}
         />
 
         <ProjectCard
-          title="SmartStayAI — Pricing Recommendation Engine"
-          desc="Developed an ML-powered decision-support system for short-term rental pricing. Combined predictive modeling with a full-stack architecture to deliver actionable insights to users."
-          url="#"
-          tags={['Machine Learning', 'Full-Stack', 'Analytics']}
-        />
-
-        <ProjectCard
-          title="IoT-Based Smart Water Recycling System"
-          desc="Proposed and designed an IoT solution to monitor, recycle, and reuse household water. Focused on sustainability, sensor integration, and embedded system design."
-          url="#"
-          tags={['IoT', 'Embedded Systems', 'Sustainability']}
-        />
-
-        <ProjectCard
           title="Atmospheric Water Generator"
           desc="Engineered a system using thermoelectric (Peltier) devices to generate water from atmospheric humidity by operating below the dew point. Applied core thermodynamics and heat transfer principles."
-          url="#"
+          url="/projects/atmospheric-water-generator"
           tags={['Thermodynamics', 'Embedded Systems', 'Sustainability']}
         />
 
@@ -53,6 +39,34 @@ export default function Projects() {
           desc="Created a browser extension that provides hints, solutions, and performance tips for LeetCode problems. Utilized JavaScript, React, and Chrome Extension APIs to enhance the problem-solving experience."
           url="/projects/leetcode-helper"
           tags={['JavaScript', 'React', 'Chrome Extension']}
+        />
+
+        <ProjectCard
+          title="Job Mil Jaye SimSim"
+          desc="Developed a full-stack job portal connecting job seekers with employers. Implemented features like resume uploads, job recommendations, and application tracking using MERN stack technologies."
+          url="/projects/job-mil-jaye-simsim"
+          tags={['MERN Stack', 'Full-Stack Development', 'Job Portal']}
+        />
+
+        <ProjectCard
+          title="IoT Geyser Dry-Run Protection"
+          desc="Designed an IoT-based system to prevent dry-run conditions in geysers using water level sensors and microcontrollers. Developed a web dashboard for real-time monitoring and alerts."
+          url="/projects/iot-geyser-protection"
+          tags={['IoT', 'Embedded Systems', 'Web Dashboard']}
+        />
+
+        <ProjectCard
+          title="Autism Risk Screening using ML"
+          desc="Built a machine learning system to assess autism risk from questionnaire responses. Trained ensemble models for improved accuracy and interpretability."
+          url="/projects/autism-risk-screening"
+          tags={['Machine Learning', 'Ensemble Models', 'Healthcare']}
+        />
+
+        <ProjectCard
+          title="V2V Charging & Communication"
+          desc="Researched vehicle-to-vehicle wireless charging and communication protocols. Proposed a framework for dynamic power transfer and data exchange between electric vehicles."
+          url="/projects/v2v-charging-communication"
+          tags={['Wireless Charging', 'V2V Communication', 'Electric Vehicles']}
         />
       </div>
     </section>
