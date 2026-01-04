@@ -1,24 +1,26 @@
 {
-  "name": "portfolio-got-engineer",
-  "version": "0.1.0",
+  "name": "harshit-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "description": "Personal portfolio showcasing full-stack, AI, and IoT engineering projects.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.20.2"
+    "react-router-dom": "^6.20.2",
+    "@fontsource/inter": "^5.0.16"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
+    "@types/node": "^20.11.30",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^5.1.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3",
+    "typescript": "^5.4.5",
     "vite": "^5.1.2"
   }
 }
